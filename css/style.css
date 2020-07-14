@@ -6,6 +6,11 @@ body {
   border: solid 1px black;
 }
 
+.vh-100 {
+  min-height: 400px;
+  min-width: 375px;
+}
+
 .vh-60 {
   height: 60vh;
 }
@@ -78,10 +83,28 @@ h2 {
 }
 
 .img-desktop {
-  max-height: 50vh;
+  max-height: 35vh;
   max-width: 70%;
 }
 
 .line-height-p {
   line-height: 1.5em;
+}
+
+@media (min-height: 576px) {
+  .vh-60 {
+    max-height: 40vh;
+  }
+}
+
+@media (min-height: 992px) {
+  .vh-60 {
+    max-height: 25vh;
+  }
+}
+
+@media (min-width: 476px) {
+  .img-desktop{
+    max-height: 50vh;
+  }
 }
