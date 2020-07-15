@@ -84,7 +84,19 @@ h2 {
 }
 
 .project-c-2 {
-  background-color: #354a21;
+  background-color: #607d3b;
+}
+
+.project-c-3 {
+  background-color: #5cbc63;
+}
+
+.project-c-4 {
+  background-color: #3bb143;
+}
+
+.project-c-5 {
+  background-color: #729c69;
 }
 
 .img-desktop {
@@ -118,9 +130,27 @@ h2 {
   border-bottom: solid 1px black;
 }
 
+.top-btn,
+.top-md-btn {
+  background-color: green;
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+}
+
 .top-btn:hover,
 .top-md-btn:hover {
+  background-color: #06ce42;
   cursor: pointer;
+}
+
+.btn-icon {
+  font-size: 2em;
+}
+
+.btn-txt-icon {
+  font-size: 0.75em;
 }
 
 @media (min-height: 576px) {
@@ -144,10 +174,10 @@ h2 {
   }
   .d-md-width-right {
     margin-left: 35%;
-    margin-top: 20vh;
+    margin-top: 15vh;
   }
   .vh-100-c {
-    height: 80vh;
+    height: 85vh;
   }
   .img-desktop{
     max-height: 45vh;
@@ -159,7 +189,7 @@ h2 {
     display: block;
     position: fixed;
     top: 0;
-    height: 20vh;
+    height: 15vh;
     width: 65%;
     background-color: chocolate;
   }
