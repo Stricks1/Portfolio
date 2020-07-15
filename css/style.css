@@ -33,6 +33,10 @@ h2 {
   display: none;
 }
 
+.design-info {
+  font-size: 0.65em;
+}
+
 .rounded-img {
   border-radius: 50%;
   width: 75px;
