@@ -17,7 +17,7 @@ body {
 }
 
 a {
-  color: #33aa33;
+  color: #27632c;
 }
 
 a:hover {
@@ -49,7 +49,7 @@ h2 {
   width: 30px;
   height: 30px;
   background-size: cover;
-  fill: #33a533;
+  fill: #27632c;
 }
 
 .icon:hover,
@@ -92,15 +92,15 @@ h2 {
 }
 
 .project-c-3 {
-  background-color: #5cbc63;
+  background-color: #405e44;
 }
 
 .project-c-4 {
-  background-color: #3bb143;
+  background-color: #729c69;
 }
 
 .project-c-5 {
-  background-color: #729c69;
+  background-color: #306435;
 }
 
 .img-desktop {
