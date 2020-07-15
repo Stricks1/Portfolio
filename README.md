@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+# Portfolio
 
-You can use the [editor on GitHub](https://github.com/Stricks1/Portfolio/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This project is a Portfolio to show my GitHub projects into a responsive web page.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Built With
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+   - HTML,
+   - CSS,
+   - Bootstrap,
+   - Font Awesome,
+   - Javascritpt
 
-```markdown
-Syntax highlighted code block
+## Live Demo
 
-# Header 1
-## Header 2
-### Header 3
+[Live Demo Link](https://rawcdn.githack.com/Stricks1/Portfolio/b2c8c48fb4f839c371279ec500f38851a172c43b/index.html)
 
-- Bulleted
-- List
+## Authors
 
-1. Numbered
-2. List
+👤 **Author**
 
-**Bold** and _Italic_ and `Code` text
+Gabriel Malheiros Silveira
 
-[Link](url) and ![Image](src)
-```
+- Github: [@Stricks1](https://github.com/Stricks1)
+- E-mail: [Gabriel Silveira](mailto:gmalheiross@gmail.com)
+- Linkedin: [Gabriel Silveira](https://linkedin.com/in/gabriel-malheiros-silveira/)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## 🤝 Contributing
 
-### Jekyll Themes
+Contributions, issues and feature requests are welcome!
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Stricks1/Portfolio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Feel free to check the [issues page](issues/).
 
-### Support or Contact
+## Show your support
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+   - Project Capstone from Microverse HTML & CSS curriculum
+   - Design idea was inspired byCharlie Waite, you can find his profilie idea [here](http://charliewaite.me)
