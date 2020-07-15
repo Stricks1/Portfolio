@@ -6,9 +6,10 @@ body {
   border: solid 1px black;
 }
 
-.vh-100 {
+.vh-100-c {
   min-height: 400px;
   min-width: 375px;
+  height: 100vh;
 }
 
 .vh-60 {
@@ -26,6 +27,10 @@ a:hover {
 
 h2 {
   font-size: 2em;
+}
+
+.d-md-top-fix {
+  display: none;
 }
 
 .rounded-img {
@@ -99,6 +104,25 @@ h2 {
   line-height: 1.5em;
 }
 
+.selected,
+.unselected {
+  display: flex;
+}
+
+.top-btn {
+  border: solid 1px black;
+}
+
+.top-md-btn {
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+}
+
+.top-btn:hover,
+.top-md-btn:hover {
+  cursor: pointer;
+}
+
 @media (min-height: 576px) {
   .vh-60 {
     max-height: 40vh;
@@ -111,9 +135,46 @@ h2 {
   }
 }
 
-@media (min-width: 476px) {
+@media (min-width: 768px) {
+  .d-md-fixed-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 35%;
+  }
+  .d-md-width-right {
+    margin-left: 35%;
+    margin-top: 20vh;
+  }
+  .vh-100-c {
+    height: 80vh;
+  }
   .img-desktop{
-    max-height: 50vh;
+    max-height: 40vh;
+  }
+  .img-phone {
+    max-height: 37vh;    
+  }
+  .d-md-top-fix {
+    display: block;
+    position: fixed;
+    top: 0;
+    height: 20vh;
+    width: 65%;
+    background-color: chocolate;
+  }
+  .selected {
+    display: flex;
+  }
+  .unselected {
+    display: none;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .img-desktop{
+    max-height: 45vh;
   }
   .img-phone {
     max-height: 40vh;    
