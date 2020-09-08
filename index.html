@@ -28,8 +28,8 @@
 <body>
 
     <!-- CONTACT INFO -->
-    <div class='vh-100 d-flex justify-content-start align-items-center p-4 d-md-fixed-left'>
-        <div class='d-flex flex-column vh-60 justify-content-around'>
+    <div class='vh-100 d-flex flex-column justify-content-start align-items-center p-4 d-md-fixed-left'>
+        <div class='d-flex flex-column vh-60 justify-content-around mt-auto'>
             <div class='align-self-center'>
                 <img class='rounded-img' src='./images/face-img.jpeg'>
             </div>
@@ -93,7 +93,7 @@
                 </a>
             </div>
         </div>    
-        <div class='align-self-end design-info'>
+        <div class='design-info mt-auto'>
             <span>Portfolio concept designed by <a href='http://charliewaite.me/'>Charlie Waite</a></span>
         </div>
     </div>
@@ -101,30 +101,31 @@
     <main class='text-white d-md-width-right'>
         <div class='d-md-top-fix'>
             <div class='d-flex h-100 align-content-stretch'>
-              <span class='flex-grow-1 d-flex flex-column justify-content-center top-btn' onClick='changeView(1);'>
-                <i class='btn-icon align-self-center fa fa-music'></i>
-                <span class='btn-txt-icon align-self-center mt-2 text-center'>Online Shop</span>
+              <a class='flex-grow-1 text-center text-btn-color button align-self-center text-nowrap' onClick='changeView(1);'>
+                <i class='btn-icon fa fa-music'></i>
+                Online Shop
+              </a>
               </span>
-              <span class='flex-grow-1 d-flex flex-column justify-content-center top-md-btn' onClick='changeView(2);'>
+              <a class='flex-grow-1 text-center text-btn-color button align-self-center text-nowrap' onClick='changeView(2);'>
                 <i class='btn-icon align-self-center fa fa-newspaper-o'></i>
-                <span class='btn-txt-icon align-self-center mt-2 text-nowrap'>Newsweek</span>
-              </span>
-              <span class='flex-grow-1 d-flex flex-column justify-content-center top-btn' onClick='changeView(3);'>
+                Newsweek
+              </a>
+              <a class='flex-grow-1 text-center text-btn-color button align-self-center text-nowrap' onClick='changeView(3);'>
                 <i class='btn-icon align-self-center fa fa-hashtag'></i>
-                <span class='btn-txt-icon align-self-center mt-2 text-nowrap'>Tic-Tac-Toe</span>
-              </span>
-              <span class='flex-grow-1 d-flex flex-column justify-content-center top-md-btn' onClick='changeView(4);'>
+                Tic-Tac-Toe
+              </a>
+              <a class='flex-grow-1 text-center text-btn-color button align-self-center text-nowrap' onClick='changeView(4);'>
                 <i class='btn-icon align-self-center fa fa-cog'></i>
-                <span class='btn-txt-icon align-self-center mt-2 text-nowrap'>XML Linter</span>
-              </span>
-              <span class='flex-grow-1 d-flex flex-column justify-content-center top-btn' onClick='changeView(5);'>
+                XML Linter
+              </a>
+              <a class='flex-grow-1 text-center text-btn-color button align-self-center text-nowrap' onClick='changeView(5);'>
                 <i class='btn-icon align-self-center fa fa-retweet'></i>
-                <span class='btn-txt-icon align-self-center mt-2 text-center'>Twitter Redesign</span>
-              </span>
-              <span class='flex-grow-1 d-flex flex-column justify-content-center top-md-btn' onClick='changeView(6);'>
+                Twitter
+              </a>
+              <a class='flex-grow-1 text-center text-btn-color button align-self-center text-nowrap' onClick='changeView(6);'>
                 <i class='btn-icon align-self-center fas fa-gamepad'></i>
                 <span class='btn-txt-icon align-self-center mt-2 text-nowrap'>Sea Game</span>
-              </span>
+              </a>
            </div>
         </div>
         <div class='vh-100-c project-c-1 flex-column justify-content-center project-show-1 selected'>
@@ -182,7 +183,7 @@
                 <img class='img-desktop my-4' src='./images/linterRuby.png'>
               </div>
               <p class='text-center mx-4 mb-3 line-height-p'>Created on Ruby, the linter checks all XML files from a folder, showing the errors from each file</p>
-              <div class='d-flex justify-content-between w-50 align-self-center'>
+              <div class='d-flex justify-content-between align-self-center'>
                 <a href='https://github.com/Stricks1/capstone-linter'>
                   <svg id="Bold" class="icon-1" enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z"/></svg>
                 </a>
