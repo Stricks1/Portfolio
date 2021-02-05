@@ -1,6 +1,7 @@
 # Portfolio
 
 This project is a Portfolio to show my GitHub projects into a responsive web page.
+Edit: This portfolio version is outdated, changed the URL to redirect for a new version, the GitHub for this new version is [Here](https://github.com/Stricks1/portfolio-f)
 
 
 ## Built With
